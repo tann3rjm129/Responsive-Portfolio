@@ -855,7 +855,7 @@ input[type=submit]:hover {
 			border-radius: 10px;
 			width: 325px;
 			height: 250px;
-			margin-bottom: 20px;
+			margin-bottom: 10px;
 			float: left;
 			display: inline;
 		}
@@ -951,7 +951,7 @@ input[type=submit]:hover {
 			border-radius: 10px;
 			position: absolute;
 			z-index: 1;
-			margin: 20px 20px 20px 60px;
+			margin: 20px 20px 20px 20px;
 			width: 240px;
 			height: 150px;
 			float: left;
@@ -961,7 +961,7 @@ input[type=submit]:hover {
 		border-radius: 10px;
 			position: absolute;
 			z-index: 1;
-			margin: 20px 200px 20px 370px;
+			margin: 20px 200px 20px 310px;
 			width: 240px;
 			height: 150px;
 			float: left;
@@ -971,7 +971,7 @@ input[type=submit]:hover {
 		border-radius: 10px;
 			position: absolute;
 			z-index: 1;
-			margin: 210px 20px 20px 60px;
+			margin: 210px 20px 20px 20px;
 			width: 240px;
 			height: 150px;
 			float: left;
@@ -981,7 +981,7 @@ input[type=submit]:hover {
 		border-radius: 10px;
 			position: absolute;
 			z-index: 1;
-			margin: 210px 20px 20px 370px;
+			margin: 210px 20px 20px 310px;
 			width: 240px;
 			height: 150px;
 			float: left;
@@ -991,7 +991,7 @@ input[type=submit]:hover {
 		border-radius: 10px;
 			position: absolute;
 			z-index: 1;
-			margin: 400px 20px 20px 60px;
+			margin: 400px 20px 20px 20px;
 			width: 240px;
 			height: 150px;
 			float: left;
@@ -1180,7 +1180,7 @@ input[type=submit]:hover {
 			display: inline;
 			font-size: 10px;
 			box-sizing: border-box;
-			width: 33.3%;
+			width: 33%;
 			height: 20px;
 			margin-right: 0px;
 			margin-left: 0px;
@@ -1194,7 +1194,7 @@ input[type=submit]:hover {
 
 	#portfolio {float: right;
 			display: inline;
-			width: 33.3%;
+			width: 33%;
 			height: 20px;
 			background: #ffffff;
 			margin-right: 0px;
@@ -1211,7 +1211,7 @@ input[type=submit]:hover {
 	#about {float: left;
 			display: inline;
 			background: #ffffff;
-			width: 33.3%;
+			width: 33%;
 			height: 20px;
 			margin-left: 0px;
 			margin-top: 20px;
