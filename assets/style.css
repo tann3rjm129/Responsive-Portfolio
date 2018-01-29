@@ -23,7 +23,7 @@
 	a:hover {color: #FFA500;}
 
 
-	#Name {width: 250px;
+	#Name {width: 25%;
 			height: 30px;
 			margin-top: 0px;
 			padding-top: 15px;
@@ -78,7 +78,7 @@
 		}
 
 	#container1 {clear: both;
-			width: 45%;
+			width: 42%;
 			float: left;
 			margin-top: 25px;
 			margin-bottom: 100px;
@@ -89,7 +89,8 @@
 			}
 
 	#container2 {clear: both;
-			width: 45%;
+			width: 42%;
+			height: 620px;
 			float: left;
 			margin-top: 25px;
 			margin-bottom: 100px;
@@ -100,7 +101,7 @@
 			}
 
 	#container3 {clear: both;
-			width: 45%;
+			width: 42%;
 			float: left;
 			margin-top: 25px;
 			margin-bottom: 100px;
@@ -113,7 +114,7 @@
 	#sidebox {float: right;
 			margin-right: 30%;
 			margin-top: 25px;
-			width: 20%;
+			width: 25%;
 			height: 170px;
 			border: 1px solid #cccccc;
 			color: #4aaaa5;
@@ -192,7 +193,7 @@
 	#social {
 		width: 50px;
 		height: 50px;
-		margin-left: 10px;
+		margin-left: 5%;
 		margin-right: 0px;
 		margin-bottom: 10px;
 		display: inline;
@@ -212,8 +213,8 @@
 	
 
 	.portfolio_images {box-sizing: border-box;
-			position: absolute;
 			border-radius: 10px;
+			position: absolute;
 			z-index: 2;
 			margin: 20px 20px 20px 20px;
 			width: 150px;
@@ -227,6 +228,7 @@
 			margin: 20px 20px 20px 20px;
 			width: 150px;
 			height: 150px;
+			border-radius: 10px;
 			float: left;
 			display: inline;}
 
@@ -236,33 +238,37 @@
 			margin: 20px 20px 20px 210px;
 			width: 150px;
 			height: 150px;
+			border-radius: 10px;
 			float: left;
 			display: inline;}
 
 	#pimage3 {box-sizing: border-box;
 			position: absolute;
 			z-index: 1;
-			margin: 20px 20px 20px 400px;
+			margin: 210px 20px 20px 20px;
 			width: 150px;
 			height: 150px;
+			border-radius: 10px;
 			float: left;
 			display: inline;}
 
 	#pimage4 {box-sizing: border-box;
 			position: absolute;
 			z-index: 1;
-			margin: 210px 20px 20px 20px;
+			margin: 210px 20px 20px 210px;
 			width: 150px;
 			height: 150px;
+			border-radius: 10px;
 			float: left;
 			display: inline;}
 
 	#pimage5 {box-sizing: border-box;
 			position: absolute;
 			z-index: 1;
-			margin: 210px 20px 20px 210px;
+			margin: 400px 20px 20px 20px;
 			width: 150px;
 			height: 150px;
+			border-radius: 10px;
 			float: left;
 			display: inline;}
 
@@ -299,7 +305,8 @@
 			font-size: 12px;
 			color: #ffffff;}
 
-	#banner3 {float: left;
+	#banner3 {clear: both;
+			float: left;
 			position: relative;
 			z-index: 4; 
 			padding-top: 10px;
@@ -307,7 +314,7 @@
 			box-sizing: border-box;
 			position: relative;
 			background-color: #4aaaa5;
-			margin-top: 120px;
+			margin-top: 150px;
 			width: 150px;
 			height: 30px;
 			text-align: center;
@@ -324,7 +331,6 @@
 			position: relative;
 			background-color: #4aaaa5;
 			margin-top: 150px;
-			margin-bottom: 50px;
 			width: 150px;
 			height: 30px;
 			text-align: center;
@@ -332,7 +338,8 @@
 			font-size: 12px;
 			color: #ffffff;}
 
-	#banner5 {float: left;
+	#banner5 {clear: both;
+			float: left;
 			position: relative;
 			z-index: 4;
 			padding-top: 10px;
@@ -341,6 +348,7 @@
 			position: relative;
 			background-color: #4aaaa5;
 			margin-top: 150px;
+			margin-bottom: 50px;
 			width: 150px;
 			height: 30px;
 			text-align: center;
@@ -401,151 +409,6 @@ input[type=submit]:hover {
 
 
 
-
-@media screen and (max-width: 1284px) {
-
-	.portfolio_images {box-sizing: border-box;
-			border-radius: 10px;
-			position: absolute;
-			z-index: 2;
-			margin: 20px 20px 20px 20px;
-			width: 150px;
-			height: 150px;
-			float: left;
-			display: inline;}
-
-	#pimage1 {box-sizing: border-box;
-			position: absolute;
-			z-index: 1;
-			margin: 20px 20px 20px 20px;
-			width: 150px;
-			height: 150px;
-			float: left;
-			display: inline;}
-
-	#pimage2 {box-sizing: border-box;
-			position: absolute;
-			z-index: 1;
-			margin: 20px 20px 20px 210px;
-			width: 150px;
-			height: 150px;
-			float: left;
-			display: inline;}
-
-	#pimage3 {box-sizing: border-box;
-			position: absolute;
-			z-index: 1;
-			margin: 210px 20px 20px 20px;
-			width: 150px;
-			height: 150px;
-			float: left;
-			display: inline;}
-
-	#pimage4 {box-sizing: border-box;
-			position: absolute;
-			z-index: 1;
-			margin: 210px 20px 20px 210px;
-			width: 150px;
-			height: 150px;
-			float: left;
-			display: inline;}
-
-	#pimage5 {box-sizing: border-box;
-			position: absolute;
-			z-index: 1;
-			margin: 400px 20px 20px 20px;
-			width: 150px;
-			height: 150px;
-			float: left;
-			display: inline;}
-
-
-	#banner1 {float:left;
-			position: relative;
-			z-index: 4;
-			display: table-row;
-			box-sizing: border-box;
-			position: relative;
-			background-color: #4aaaa5;
-			padding-top: 10px;
-			margin-top: 120px;
-			width: 150px;
-			height: 30px;
-			text-align: center;
-			font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-			font-size: 12px;
-			color: #ffffff;}
-
-	#banner2 {float: left;
-			position: relative;
-			z-index: 4; 
-			padding-top: 10px;
-			display: table-row;
-			box-sizing: border-box;
-			position: relative;
-			background-color: #4aaaa5;
-			margin-top: 120px;
-			width: 150px;
-			height: 30px;
-			text-align: center;
-			font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-			font-size: 12px;
-			color: #ffffff;}
-
-	#banner3 {float: left;
-			position: relative;
-			z-index: 4; 
-			padding-top: 10px;
-			display: table-row;
-			box-sizing: border-box;
-			position: relative;
-			background-color: #4aaaa5;
-			margin-top: 150px;
-			width: 150px;
-			height: 30px;
-			text-align: center;
-			font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-			font-size: 12px;
-			color: #ffffff;}
-
-	#banner4 {float: left;
-			position: relative;
-			z-index: 4;
-			padding-top: 10px;
-			display: table-row;
-			box-sizing: border-box;
-			position: relative;
-			background-color: #4aaaa5;
-			margin-top: 150px;
-			width: 150px;
-			height: 30px;
-			text-align: center;
-			font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-			font-size: 12px;
-			color: #ffffff;}
-
-	#banner5 {float: left;
-			position: relative;
-			z-index: 4;
-			padding-top: 10px;
-			display: table-row;
-			box-sizing: border-box;
-			position: relative;
-			background-color: #4aaaa5;
-			margin-top: 110px;
-			margin-bottom: 50px;
-			width: 150px;
-			height: 30px;
-			text-align: center;
-			font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-			font-size: 12px;
-			color: #ffffff;}
-
-	}
-
-
-
-
 @media screen and (max-width: 980px) {
 
 
@@ -572,16 +435,27 @@ input[type=submit]:hover {
 			}
 
 		#img1 {	margin-left: 20px;
+			margin-top: 20px;
 			margin-right: 20px;
 			border-radius: 10px;
-			width: 325px;
-			height: 250px;
+			width: 90%;
+			height: 20%;
 			margin-bottom: 20px;
 			float: left;
 			display: inline;
 		}
 
-	#Name {width: 200px;
+	#social {
+		width: 50px;
+		height: 50px;
+		margin-left: 5%;
+		margin-right: 0px;
+		margin-bottom: 10px;
+		display: inline;
+		}
+
+
+	#Name {width: 25%;
 			height: 30px;
 			margin-top: 0px;
 			padding-top: 15px;
@@ -637,7 +511,7 @@ input[type=submit]:hover {
 
 	#container2 {clear: both;
 			width: 42%;
-			height: 1000px;
+			height: 1210px;
 			float: left;
 			margin-top: 25px;
 			margin-bottom: 100px;
@@ -650,7 +524,7 @@ input[type=submit]:hover {
 	#sidebox {float: right;
 			margin-right: 30%;
 			margin-top: 25px;
-			width: 220px;
+			width: 25%;
 			height: 170px;
 			border: 1px solid #cccccc;
 			color: #4aaaa5;
@@ -677,8 +551,8 @@ input[type=submit]:hover {
 			position: absolute;
 			z-index: 1;
 			margin: 20px 20px 20px 20px;
-			width: 240px;
-			height: 150px;
+			width: 37%;
+			height: 200px;
 			float: left;
 			display: inline;}
 
@@ -686,9 +560,9 @@ input[type=submit]:hover {
 		border-radius: 10px;
 			position: absolute;
 			z-index: 1;
-			margin: 210px 20px 20px 20px;
-			width: 240px;
-			height: 150px;
+			margin: 250px 20px 20px 20px;
+			width: 37%;
+			height: 200px;
 			float: left;
 			display: inline;}
 
@@ -696,9 +570,9 @@ input[type=submit]:hover {
 		border-radius: 10px;
 			position: absolute;
 			z-index: 1;
-			margin: 400px 20px 20px 20px;
-			width: 240px;
-			height: 150px;
+			margin: 480px 20px 20px 20px;
+			width: 37%;
+			height: 200px;
 			float: left;
 			display: inline;}
 
@@ -706,9 +580,9 @@ input[type=submit]:hover {
 		border-radius: 10px;
 			position: absolute;
 			z-index: 1;
-			margin: 590px 20px 20px 20px;
-			width: 240px;
-			height: 150px;
+			margin: 710px 20px 20px 20px;
+			width: 37%;
+			height: 200px;
 			float: left;
 			display: inline;}
 
@@ -716,9 +590,9 @@ input[type=submit]:hover {
 		border-radius: 10px;
 			position: absolute;
 			z-index: 1;
-			margin: 780px 20px 20px 20px;
-			width: 240px;
-			height: 150px;
+			margin: 930px 20px 20px 20px;
+			width: 37%;
+			height: 200px;
 			float: left;
 			display: inline;}
 
@@ -731,8 +605,8 @@ input[type=submit]:hover {
 			position: relative;
 			background-color: #4aaaa5;
 			padding-top: 10px;
-			margin-top: 120px;
-			width: 240px;
+			margin-top: 170px;
+			width: 88.1%;
 			height: 30px;
 			text-align: center;
 			font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
@@ -747,9 +621,9 @@ input[type=submit]:hover {
 			box-sizing: border-box;
 			position: absolute;
 			background-color: #4aaaa5;
-			margin-top: 310px;
+			margin-top: 400px;
 			margin-left: 20px;
-			width: 240px;
+			width: 37%;
 			height: 30px;
 			text-align: center;
 			font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
@@ -763,9 +637,9 @@ input[type=submit]:hover {
 			display: table-row;
 			box-sizing: border-box;
 			background-color: #4aaaa5;
-			margin-top: 500px;
+			margin-top: 630px;
 			margin-left: 20px;
-			width: 240px;
+			width: 37%;
 			height: 30px;
 			text-align: center;
 			font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
@@ -779,9 +653,9 @@ input[type=submit]:hover {
 			display: table-row;
 			box-sizing: border-box;
 			background-color: #4aaaa5;
-			margin-top: 690px;
+			margin-top: 860px;
 			margin-left: 20px;
-			width: 240px;
+			width: 37%;
 			height: 30px;
 			text-align: center;
 			font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
@@ -795,10 +669,10 @@ input[type=submit]:hover {
 			display: table-row;
 			box-sizing: border-box;
 			background-color: #4aaaa5;
-			margin-top: 890px;
+			margin-top: 1080px;
 			margin-left: 20px;
 			margin-bottom: 50px;
-			width: 240px;
+			width: 37%;
 			height: 30px;
 			text-align: center;
 			font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
@@ -851,6 +725,7 @@ input[type=submit]:hover {
 			}
 
 		#img1 {	margin-left: 20px;
+			margin-top: 20px;
 			margin-right: 20px;
 			border-radius: 10px;
 			width: 325px;
@@ -860,7 +735,7 @@ input[type=submit]:hover {
 			display: inline;
 		}
 
-	#Name {width: 200px;
+	#Name {width: 30%;
 			height: 30px;
 			margin-top: 0px;
 			padding-top: 15px;
@@ -1154,9 +1029,10 @@ input[type=submit]:hover {
 			}
 
 		#img1 {	margin-left: 20px;
+			margin-top: 20px;
 			border-radius: 10px;
 			width: 90%;
-			height: 400px;
+			height: 20%;
 			margin-bottom: 20px;
 			float: left;
 			display: inline;
