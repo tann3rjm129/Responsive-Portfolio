@@ -1005,7 +1005,7 @@ input[type=submit]:hover {
 			box-sizing: border-box;
 			position: relative;
 			background-color: #4aaaa5;
-			margin-left: 60px;
+			margin-left: 20px;
 			padding-top: 10px;
 			margin-top: 120px;
 			width: 240px;
@@ -1024,7 +1024,7 @@ input[type=submit]:hover {
 			position: absolute;
 			background-color: #4aaaa5;
 			margin-top: 120px;
-			margin-left: 370px;
+			margin-left: 310px;
 			width: 240px;
 			height: 30px;
 			text-align: center;
@@ -1040,7 +1040,7 @@ input[type=submit]:hover {
 			box-sizing: border-box;
 			background-color: #4aaaa5;
 			margin-top: 310px;
-			margin-left: 60px;
+			margin-left: 20px;
 			width: 240px;
 			height: 30px;
 			text-align: center;
@@ -1056,7 +1056,7 @@ input[type=submit]:hover {
 			box-sizing: border-box;
 			background-color: #4aaaa5;
 			margin-top: 310px;
-			margin-left: 370px;
+			margin-left: 310px;
 			width: 240px;
 			height: 30px;
 			text-align: center;
@@ -1072,7 +1072,7 @@ input[type=submit]:hover {
 			box-sizing: border-box;
 			background-color: #4aaaa5;
 			margin-top: 500px;
-			margin-left: 60px;
+			margin-left: 20px;
 			margin-bottom: 50px;
 			width: 240px;
 			height: 30px;
@@ -1180,7 +1180,7 @@ input[type=submit]:hover {
 			display: inline;
 			font-size: 10px;
 			box-sizing: border-box;
-			width: 33%;
+			width: 33.3%;
 			height: 20px;
 			margin-right: 0px;
 			margin-left: 0px;
@@ -1194,7 +1194,8 @@ input[type=submit]:hover {
 
 	#portfolio {float: right;
 			display: inline;
-			width: 33%;
+			box-sizing: border-box;
+			width: 33.3%;
 			height: 20px;
 			background: #ffffff;
 			margin-right: 0px;
@@ -1202,21 +1203,22 @@ input[type=submit]:hover {
 			margin-top: 20px;
 			padding-left: 0px;
 			font-size: 10px;
-			padding-bottom: 20px;
+			padding-bottom: 40px;
 			padding-top: 20px;
 			border-left: 0.5px solid #cccccc;
 		
 			}
 
-	#about {float: left;
+	#about {float: right;
 			display: inline;
+			box-sizing: border-box;
 			background: #ffffff;
-			width: 33%;
+			width: 33.3%;
 			height: 20px;
 			margin-left: 0px;
 			margin-top: 20px;
 			font-size: 10px;
-			padding-bottom: 20px;
+			padding-bottom: 40px;
 			padding-top: 20px;
 			
 			}
